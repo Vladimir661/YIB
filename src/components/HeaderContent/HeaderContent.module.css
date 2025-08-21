@@ -1,0 +1,123 @@
+.content{
+    padding: 100px 200px;
+}
+.content h1 {
+    white-space: pre-line;
+    width: 70vw;
+    font-size: clamp(1rem, 0.6rem + 2vw, 3rem);
+    font-weight: 600;
+    line-height: 58px;
+    text-align: left;
+}
+.preFirst {
+    white-space: pre-line;
+    width: 35vw;
+    font-size: clamp(1rem, 0.75rem + 1.25vw, 2.25rem);
+    line-height: 43px;
+    text-align: left;
+}
+.preSecond{
+    white-space: pre-line;
+    width: 45vw;
+    font-size: clamp(1rem, 0.75rem + 1.25vw, 2.25rem);
+    line-height: 43px;
+    text-align: left;
+}
+.custButton{
+    display: block;
+    width: 450px;
+    height: 90px;
+    border-radius: 15px;
+    background: rgba(214, 45, 40, 1);
+    color: rgba(255, 245, 244, 1);
+    font-size: clamp(1rem, 0.8rem + 1vw, 2rem);
+    font-weight: 600;
+    line-height: 38px;
+    text-align: center;
+    align-content: center;
+    border: none;
+}
+.lastContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 1400px){
+    .content{
+        padding: 50px 100px;
+    }
+}
+@media (max-width: 1200px){
+    .custButton {
+        width: 325px;
+        height: 70px;
+    }
+}
+@media (max-width: 992px){
+    .content{
+        padding: 25px 50px;
+    }
+    .content h1{
+        width: 80vw;
+    }
+    .preFirst{
+        width: 38vw;
+    }
+    .preSecond{
+        width: 54vw;
+    }
+    .custButton {
+        width: 325px;
+        height: 70px;
+    }
+}
+@media (max-width: 768px){
+    .content h1{
+        width: 81vw;
+        line-height: 40px;
+    }
+    .preFirst{
+        width: 43vw;
+        line-height: 35px;
+    }
+    .preSecond{
+        width: 51vw;
+        line-height: 35px;
+    }
+    .custButton {
+        width: 275px;
+        height: 50px;
+    }
+}
+@media (max-width: 576px){
+    .content{
+        padding: 10px 5px;
+    }
+    .content h1,
+    .preFirst,
+    .preSecond {
+        width: 98vw;
+    }
+    .content h1{
+        line-height: 30px;
+        text-align: center;
+    }
+    .preFirst{
+        text-align: center;
+        line-height: 25px;
+    }
+    .preSecond{
+        text-align: center;
+        line-height: 25px;
+    }
+    .custButton {
+        width: 300px;
+        height: 60px;
+    }
+    .lastContent{
+        flex-direction: column;
+        align-items: center;
+        column-gap: 20px;
+    }
+}
