@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Header.module.css';
-import Navbar from '../NavBar/NavBar';
+import Navbar from '../Navbar/Navbar';
 import HeaderContent from '../HeaderContent/HeaderContent';
 
 
