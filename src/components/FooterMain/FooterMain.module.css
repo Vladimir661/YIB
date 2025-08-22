@@ -3,7 +3,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
 }
 .text{
     padding: 100px 200px;
@@ -15,14 +14,14 @@
 }
 .preContent{
     white-space: pre-line;
-    padding: 0px 200px 100px 200px;
+    padding: 0px 200px 75px 200px;
     width: 75vw;
     font-size: clamp(1rem, 0.75rem + 1.25vw, 2.25rem);
     line-height: 43px;
     text-align: left;
 }
 .olCust{
-    padding: 0px;
+    padding: 0px 0px 25px 0px;
 }
 .olCust li {
     font-size: clamp(1rem, 0.675rem + 1.625vw, 2.625rem);
