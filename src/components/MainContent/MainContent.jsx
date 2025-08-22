@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function MainContent() {
     return (
-        <section className={styles.mainContent}>
+        <section id='ourServants' className={styles.mainContent}>
             <h1 className={styles.text}>
                 Наші послуги
             </h1>

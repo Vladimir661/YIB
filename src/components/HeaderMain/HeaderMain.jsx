@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function HeaderMain() {
     return (
-        <section className={styles.headerMain}>
+        <section  id='howItsWord' className={styles.headerMain}>
             <h1 className={styles.text}>
                 Прості кроки до відкриття рахунку
             </h1>

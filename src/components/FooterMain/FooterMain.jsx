@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function FooterMain() {
     return (
-        <section className={styles.footerMain}>
+        <section id='whyChooseUs' className={styles.footerMain}>
             <h1 className={styles.text}>
                 Чому обирають нас?
             </h1>
