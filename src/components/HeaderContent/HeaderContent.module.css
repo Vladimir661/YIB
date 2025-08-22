@@ -37,6 +37,10 @@
     align-content: center;
     border: none;
 }
+.custButton:hover{
+    color: black;
+    border: 2px solid rgb(255, 255, 255);
+}
 .lastContent{
     display: flex;
     flex-direction: row;
